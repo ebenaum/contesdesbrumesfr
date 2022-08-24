@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Forum:wght@400&display=swap');
+
+@supports (-webkit-appearance: none) or (-moz-appearance: none) {
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox'],
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio'] {
+    --active: #3978fc;
+    --active-inner: #ffffff;
+    --focus: 2px rgba(57,120,252,0.300008);
+    --border: #3778fc;
+    --border-hover: #3978fc;
+    --background: #ffffff;
+    --disabled: #F6F8FF;
+    --disabled-inner: #E1E6F9;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    height: 21px;
+    outline: none;
+    display: inline-block;
+    vertical-align: top;
+    position: relative;
+    margin: 0;
+    cursor: pointer;
+    border: 1px solid var(--bc, var(--border));
+    background: var(--b, var(--background));
+    -webkit-transition: background .3s, border-color .3s, box-shadow .2s;
+    transition: background .3s, border-color .3s, box-shadow .2s;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:after,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:after {
+    content: '';
+    display: block;
+    left: 0;
+    top: 0;
+    position: absolute;
+    -webkit-transition: opacity var(--d-o, 0.2s), -webkit-transform var(--d-t, 0.3s) var(--d-t-e, ease);
+    transition: opacity var(--d-o, 0.2s), -webkit-transform var(--d-t, 0.3s) var(--d-t-e, ease);
+    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s);
+    transition: transform var(--d-t, 0.3s) var(--d-t-e, ease), opacity var(--d-o, 0.2s), -webkit-transform var(--d-t, 0.3s) var(--d-t-e, ease);
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:checked,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:checked {
+    --b: var(--active);
+    --bc: var(--active);
+    --d-o: .3s;
+    --d-t: .6s;
+    --d-t-e: cubic-bezier(.2, .85, .32, 1.2);
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:disabled,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:disabled {
+    --b: var(--disabled);
+    cursor: not-allowed;
+    opacity: .9;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:disabled:checked,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:disabled:checked {
+    --b: var(--disabled-inner);
+    --bc: var(--border);
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:disabled + label,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:disabled + label {
+    cursor: not-allowed;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:hover:not(:checked):not(:disabled),
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:hover:not(:checked):not(:disabled) {
+    --bc: var(--border-hover);
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:focus,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:focus {
+    box-shadow: 0 0 0 var(--focus);
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:not(.switch),
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:not(.switch) {
+    width: 21px;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:not(.switch):after,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:not(.switch):after {
+    opacity: var(--o, 0);
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:not(.switch):checked,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:not(.switch):checked {
+    --o: 1;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox'] + label,
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio'] + label {
+    line-height: 21px;
+    display: inline-block;
+    vertical-align: top;
+    cursor: pointer;
+    margin-left: 0.2em;
+  }
+
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:not(.switch) {
+    border-radius: 7px;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:not(.switch):after {
+    width: 5px;
+    height: 9px;
+    border: 2px solid var(--active-inner);
+    border-top: 0;
+    border-left: 0;
+    left: 7px;
+    top: 4px;
+    -webkit-transform: rotate(var(--r, 20deg));
+            transform: rotate(var(--r, 20deg));
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox']:not(.switch):checked {
+    --r: 43deg;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox'].switch {
+    width: 38px;
+    border-radius: 11px;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox'].switch:after {
+    left: 2px;
+    top: 2px;
+    border-radius: 50%;
+    width: 15px;
+    height: 15px;
+    background: var(--ab, var(--border));
+    -webkit-transform: translateX(var(--x, 0));
+            transform: translateX(var(--x, 0));
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox'].switch:checked {
+    --ab: var(--active-inner);
+    --x: 17px;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='checkbox'].switch:disabled:not(:checked):after {
+    opacity: .6;
+  }
+
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio'] {
+    border-radius: 50%;
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:after {
+    width: 19px;
+    height: 19px;
+    border-radius: 50%;
+    background: var(--active-inner);
+    opacity: 0;
+    -webkit-transform: scale(var(--s, 0.7));
+            transform: scale(var(--s, 0.7));
+  }
+  .wafx-form-input[data-uuid-form='wa-fake-formulary'][type='radio']:checked {
+    --s: .5;
+  }
+}
+
+.wafx-form-input[data-uuid-form='wa-fake-formulary'] * {
+  box-sizing: border-box;
+}
+.wafx-form-input[data-uuid-form='wa-fake-formulary'] *:before, *:after {
+  box-sizing: border-box;
+}
+
+.wa_st_txt_default {
+    color: rgba(33,37,41,1);
+    font-family: 'Forum';
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+    &:not(:last-child) {margin-bottom: 16px !important;} ;
+}
+.wa_st_txt_default a {
+    color: rgba(0,0,255,1);
+    font-weight: normal;
+    text-decoration: underline;
+}
+.wa_st_txt_default.wa-last-par {
+    color: rgba(33,37,41,1);
+    font-family: 'Forum';
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+    &:not(:last-child) {margin-bottom: 16px !important;} ;
+}
+.wa_st_txt_default.wa-last-par a {
+    color: rgba(0,0,255,1);
+    font-weight: normal;
+    text-decoration: underline;
+}
+.wa_st_txt_default {
+    font-size: 13px;
+    line-height: 1.2;
+}
+.wa_st_txt_default.wa-last-par {
+    font-size: 13px;
+    line-height: 1.2;
+}
+@media (min-width: 992px) {
+    .wa_st_txt_default {
+        font-size: 13px;
+        line-height: 1.2;
+    }
+    .wa_st_txt_default.wa-last-par {
+        font-size: 13px;
+        line-height: 1.2;
+    }
+}
+.waScrollToTopBtn {
+    background: rgba(192,192,192,1);
+    height: 48px;
+    width: 48px;
+}
+.waScrollToTopBtn img {
+    height: 19px;
+    width: 19px;
+}
+.waScrollToTopBtn:hover {
+    background: rgba(192,192,192,1);
+}
+.waLayoutPreviewInfosLabel .walayoutFmt .waLayWaFusion_lg {
+    display: none;
+}
+.waLayoutPreviewInfosLabel .walayoutFmt .waLayWaFusion_xs {
+    display: flex;
+}
+@media (min-width: 992px) {
+    .waLayoutPreviewInfosLabel .walayoutFmt .waLayWaFusion_lg {
+        display: flex;
+    }
+    .waLayoutPreviewInfosLabel .walayoutFmt .waLayWaFusion_xs {
+        display: none;
+    }
+}

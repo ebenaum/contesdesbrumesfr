@@ -1,0 +1,196 @@
+
+
+.comp_0 {
+    background-color: rgba(0,0,0,0);
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.comp_0 > .innerBox {
+    display: inherit;
+    flex-direction: inherit;
+}
+.comp_1 {
+    --bs-gutter-x: 0px;
+    flex-direction: row;
+}
+.comp_2 {
+    flex-direction: column;
+}
+.comp_2 > .wa_inner_col {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_2 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+.comp_3 {
+    flex-direction: column;
+}
+.comp_3 > .wa_inner_col {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_3 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+.comp_4 {
+    flex-direction: column;
+}
+.comp_4 > .wa_inner_col {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_4 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+body {
+    background-color: rgba(255,255,255,1);
+}
+.comp_0 {
+    border: none;
+    border-radius: 0px;
+    display: flex;
+    min-height: 0px;
+}
+.comp_0 > .innerBox {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.comp_1 {
+    display: flex;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.comp_2 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_2 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_2 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.comp_3 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_3 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_3 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.comp_4 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_4 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_4 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+body {
+    background-image: url('');
+}
+@media (min-width: 992px) {
+    .comp_0 {
+        border: none;
+        border-radius: 0px;
+        display: flex;
+        min-height: 0px;
+    }
+    .comp_0 > .innerBox {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .comp_1 {
+        display: flex;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .comp_2 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_2 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_2 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .comp_3 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_3 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_3 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .comp_4 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_4 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_4 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    body {
+        background-image: url('');
+    }
+}

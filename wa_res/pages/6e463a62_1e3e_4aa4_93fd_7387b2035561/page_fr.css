@@ -1,0 +1,694 @@
+
+
+.comp_0 {
+    background-color: rgba(0,0,0,1);
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.comp_0 > .innerBox {
+    display: inherit;
+    flex-direction: inherit;
+}
+.comp_1 {
+    --bs-gutter-x: 0px;
+    flex-direction: row;
+}
+.comp_10 {
+    flex-direction: column;
+}
+.comp_10 > .wa_inner_col {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_10 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+.comp_11 {
+    --bs-gutter-x: 0px;
+    flex-direction: row;
+}
+.comp_12 {
+    flex-direction: column;
+}
+.comp_12 > .wa_inner_col {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_12 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+.comp_13 {
+    flex-direction: column;
+}
+.comp_13 > .wa_inner_col {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_13 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+.comp_14 {
+    display: flex;
+    width: 100%;
+}
+.comp_14 .waImgA {
+    cursor: default;
+    line-height: 0px;
+}
+.comp_14 .waWrapImage2 {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+}
+.comp_15 {
+    flex-direction: column;
+}
+.comp_15 > .wa_inner_col {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_15 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+.comp_16 {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 100%;
+}
+.comp_16 .wa-txt-par {
+    color: rgba(199,199,199,1);
+    font-family: 'Forum';
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+    &:not(:last-child) {margin-bottom: 16px !important;} ;
+}
+.comp_16 .wa-txt-par a {
+    color: rgba(0,0,255,1);
+    font-weight: normal;
+    text-decoration: underline;
+}
+.comp_16 .wa-txt-par.wa-last-par {
+    color: rgba(199,199,199,1);
+    font-family: 'Forum';
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+    &:not(:last-child) {margin-bottom: 16px !important;} ;
+}
+.comp_16 .wa-txt-par.wa-last-par a {
+    color: rgba(0,0,255,1);
+    font-weight: normal;
+    text-decoration: underline;
+}
+.comp_2 {
+    flex-direction: column;
+}
+.comp_2 > .wa_inner_col {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_2 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+.comp_3 {
+    background-color: rgba(0,0,0,1);
+    width: 100%;
+}
+.comp_4 {
+    animation: fadeIn;
+    animation-duration: 1000ms;
+    display: flex;
+    width: 100%;
+}
+.comp_4 .waImgA {
+    cursor: default;
+    line-height: 0px;
+}
+.comp_4 .waWrapImage2 {
+    cursor: pointer;
+    display: flex;
+    width: 100%;
+}
+.comp_5 {
+    background-color: rgba(0,0,0,0);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    overflow: hidden;
+    width: 100%;
+}
+.comp_5 .wa-txt-par {
+    color: rgba(33,37,41,1);
+    font-family: 'Forum';
+    font-weight: 400;
+    margin-bottom: 1em;
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+    &:not(:last-child) {margin-bottom: 16px !important;} ;
+}
+.comp_5 .wa-txt-par a {
+    color: rgba(0,0,255,1);
+    font-weight: normal;
+    text-decoration: underline;
+}
+.comp_5 .wa-txt-par.wa-last-par {
+    color: rgba(33,37,41,1);
+    font-family: 'Forum';
+    font-weight: 400;
+    margin-bottom: 0px;
+    text-align: left;
+    width: 100%;
+    word-break: break-word;
+    &:not(:last-child) {margin-bottom: 16px !important;} ;
+}
+.comp_5 .wa-txt-par.wa-last-par a {
+    color: rgba(0,0,255,1);
+    font-weight: normal;
+    text-decoration: underline;
+}
+.comp_5 img {
+    width: 100%;
+}
+.comp_6 {
+    background-color: rgba(0,0,0,0);
+    flex-direction: column;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.comp_6 > .innerBox {
+    display: inherit;
+    flex-direction: inherit;
+}
+.comp_7 {
+    --bs-gutter-x: 0px;
+    flex-direction: row;
+}
+.comp_8 {
+    flex-direction: column;
+}
+.comp_8 > .wa_inner_col {
+    background-color: rgba(0,0,0,1);
+    display: flex;
+    flex-direction: inherit;
+    height: 100%;
+}
+.comp_8 > .wa_inner_col > .wa_inner_col2 {
+    display: inherit;
+    flex-direction: inherit;
+    height: 100%;
+    justify-content: flex-start;
+}
+.comp_9 {
+    --bs-gutter-x: 0px;
+    flex-direction: row;
+}
+body {
+    background-color: rgba(255,255,255,1);
+}
+.comp_0 {
+    border: none;
+    border-radius: 0px;
+    display: flex;
+    min-height: 0px;
+}
+.comp_0 > .innerBox {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+.comp_1 {
+    display: flex;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.comp_10 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_10 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_10 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+.comp_11 {
+    display: flex;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.comp_12 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_12 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_12 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.comp_13 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_13 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_13 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
+}
+.comp_14 {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+.comp_14 .waImgA {
+    width: 100%;
+}
+.comp_14 .waWrapImage2 {
+    justify-content: flex-start;
+}
+.comp_14 img {
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 0rem 0rem rgba(0,0,0,0)  !important;
+    height: auto;
+    max-height: unset;
+    max-width: 100%;
+    width: 100%;
+}
+.comp_15 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_15 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_15 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+.comp_16 {
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-height: 0px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 16px;
+}
+.comp_16 .wa-txt-par {
+    font-size: 16px;
+    line-height: 0.8;
+}
+.comp_16 .wa-txt-par.wa-last-par {
+    font-size: 16px;
+    line-height: 0.8;
+}
+.comp_2 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_2 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_2 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+.comp_3 {
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-height: 30px;
+}
+.comp_4 {
+    margin-bottom: -17px;
+    margin-top: 0px;
+}
+.comp_4 .waImgA {
+    width: 100%;
+}
+.comp_4 .waWrapImage2 {
+    justify-content: flex-start;
+}
+.comp_4 img {
+    border: none;
+    border-radius: 0px;
+    box-shadow: 0 0rem 0rem rgba(0,0,0,0)  !important;
+    height: auto;
+    max-height: unset;
+    max-width: 100%;
+    width: 100%;
+}
+.comp_5 {
+    border: none;
+    border-radius: 0px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    min-height: 0px;
+    padding-bottom: 16px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 25px;
+}
+.comp_5 .wa-txt-par {
+    font-size: 16px;
+    line-height: 1.2;
+}
+.comp_5 .wa-txt-par.wa-last-par {
+    font-size: 16px;
+    line-height: 1.2;
+}
+.comp_5 img {
+    margin-bottom: 11px;
+    margin-right: 17px;
+    width: 30%;
+}
+.comp_6 {
+    border: none;
+    border-radius: 0px;
+    display: flex;
+    min-height: 0px;
+}
+.comp_6 > .innerBox {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+.comp_7 {
+    display: flex;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+.comp_8 {
+    min-height: 0px;
+    padding-left: 0rem;
+    padding-right: 0rem;
+}
+.comp_8 > .wa_inner_col {
+    border: none;
+    border-radius: 0px;
+}
+.comp_8 > .wa_inner_col > .wa_inner_col2 {
+    margin-bottom: 0rem;
+    margin-left: 0rem;
+    margin-right: 0rem;
+    margin-top: 0rem;
+}
+.comp_9 {
+    display: flex;
+    margin-bottom: 0px !important;
+    margin-top: 0px !important;
+}
+body {
+    background-image: url('');
+}
+@media (min-width: 992px) {
+    .comp_0 {
+        border: none;
+        border-radius: 0px;
+        display: flex;
+        min-height: 0px;
+    }
+    .comp_0 > .innerBox {
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    .comp_1 {
+        display: flex;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .comp_10 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_10 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_10 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    .comp_11 {
+        display: flex;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .comp_12 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_12 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_12 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .comp_13 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_13 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_13 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0px;
+        margin-left: 0px;
+        margin-right: 0px;
+        margin-top: 0px;
+    }
+    .comp_14 {
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
+    .comp_14 .waImgA {
+        width: 100%;
+    }
+    .comp_14 .waWrapImage2 {
+        justify-content: flex-start;
+    }
+    .comp_14 img {
+        border: none;
+        border-radius: 0px;
+        box-shadow: 0 0rem 0rem rgba(0,0,0,0)  !important;
+        height: auto;
+        max-height: unset;
+        max-width: 100%;
+        width: 100%;
+    }
+    .comp_15 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_15 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_15 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    .comp_16 {
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-height: 0px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 16px;
+    }
+    .comp_16 .wa-txt-par {
+        font-size: 16px;
+        line-height: 0.8;
+    }
+    .comp_16 .wa-txt-par.wa-last-par {
+        font-size: 16px;
+        line-height: 0.8;
+    }
+    .comp_2 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_2 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_2 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    .comp_3 {
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-height: 30px;
+    }
+    .comp_4 {
+        margin-bottom: -17px;
+        margin-top: 0px;
+    }
+    .comp_4 .waImgA {
+        width: 100%;
+    }
+    .comp_4 .waWrapImage2 {
+        justify-content: flex-start;
+    }
+    .comp_4 img {
+        border: none;
+        border-radius: 0px;
+        box-shadow: 0 0rem 0rem rgba(0,0,0,0)  !important;
+        height: auto;
+        max-height: unset;
+        max-width: 100%;
+        width: 100%;
+    }
+    .comp_5 {
+        border: none;
+        border-radius: 0px;
+        margin-bottom: 0px;
+        margin-top: 0px;
+        min-height: 0px;
+        padding-bottom: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 25px;
+    }
+    .comp_5 .wa-txt-par {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .comp_5 .wa-txt-par.wa-last-par {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+    .comp_5 img {
+        margin-bottom: 5px;
+        margin-right: 7px;
+        width: 38%;
+    }
+    .comp_6 {
+        border: none;
+        border-radius: 0px;
+        display: flex;
+        min-height: 0px;
+    }
+    .comp_6 > .innerBox {
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    .comp_7 {
+        display: flex;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    .comp_8 {
+        min-height: 0px;
+        padding-left: 0rem;
+        padding-right: 0rem;
+    }
+    .comp_8 > .wa_inner_col {
+        border: none;
+        border-radius: 0px;
+    }
+    .comp_8 > .wa_inner_col > .wa_inner_col2 {
+        margin-bottom: 0rem;
+        margin-left: 0rem;
+        margin-right: 0rem;
+        margin-top: 0rem;
+    }
+    .comp_9 {
+        display: flex;
+        margin-bottom: 0px !important;
+        margin-top: 0px !important;
+    }
+    body {
+        background-image: url('');
+    }
+}
